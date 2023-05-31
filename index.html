@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Josiah Olaleye - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <section class="main-body">
+    <section class="profile-container">
+      <div class="profile-img-container">
+        <img src="avatar_hat.jpg" alt="a woman wearing a hat looking right." class="profile-img" />
+        <div class="name-align-left">Jane Doe</div>
+      </div>
+      <div class="profile-contact bg-white gray-color">
+        <p>Designer</p>
+        <p>London, UK</p>
+        <p>
+          <a href="mailto: josiaholaleye001@gmail.com" class="link gray-color">
+            josiaholaleye001@gmail.com</a>
+        </p>
+        <p>
+          <a href="tel:+2349078527516" class="link gray-color">
+            +2349078527516</a>
+        </p>
+        <hr />
+      </div>
+      <div class="skills-box bg-white gray-color">
+        <h3 class="gray-color">Skills</h3>
+        <p class="skill-name">Team work</p>
+        <div class="progress-bar">
+          <div class="bar bar-1 bg-green">95%</div>
+        </div>
+        <p class="skill-name">Accountability</p>
+        <div class="progress-bar">
+          <div class="bar bar-2 bg-green">76%</div>
+        </div>
+        <p class="skill-name">Critical Thinking</p>
+        <div class="progress-bar">
+          <div class="bar bar-3 bg-green">83%</div>
+        </div>
+        <p class="skill-name">Photography</p>
+        <div class="progress-bar">
+          <div class="bar bar-4 bg-green">69%</div>
+        </div>
+      </div>
+      <div class="lang-box bg-white gray-color">
+        <h3 class="ml-15">Languages</h3>
+        <p class="lang-name">English</p\]>
+        <div class="progress-bar">
+          <div class="bar bar-5 bg-green"></div>
+        </div>
+        <p class="lang-name">Pidgin</p>
+        <div class="progress-bar">
+          <div class="bar bar-6 bg-green"></div>
+        </div>
+        <p class="lang-name">Spanish</p>
+        <div class="progress-bar">
+          <div class="bar bar-7 bg-green"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Work Experience section -->
+    <section class="workExp-section bg-white gray-color">
+      <p class="large-text-h1">Work Experience</p>
+      <div class="box">
+        <h3>Frontend Developer / w3schools.com</h3>
+        <div class="date flex">
+          <p class="text-green">Jan 2015 -</p>
+          <button class="date-btn bg-green">Current</button>
+        </div>
+        <p class="lorem-text">
+          Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in
+          deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta
+          ea et odio, unde doloremque repellendus iure, iste.
+        </p>
+      </div>
+      <div class="box box-2">
+        <h3>Web Developer / something.com</h3>
+        <div class="date">
+          <p class="text-green">Oct 2015 - Dec 2016</p>
+        </div>
+        <p class="lorem-text">
+          Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in
+          deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta
+          ea et odio, unde doloremque repellendus iure, iste.
+        </p>
+      </div>
+      <div class="box">
+        <h3>HTML Developer / darkweb.com</h3>
+        <div class="date flex">
+          <p class="text-green">August 2015 - Oct 2015</p>
+        </div>
+        <p class="lorem-text">
+          Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in
+          deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta
+          ea et odio, unde doloremque repellendus iure, iste.
+        </p>
+      </div>
+    </section>
+    <!-- Education -->
+    <section class="education-history bg-white gray-color">
+      <p class="large-text-h1">Education</p>
+      <div class="box">
+        <h3>Loyalty Academy</h3>
+        <div class="date flex">
+          <p class="text-green">Forever</p>
+        </div>
+        <p class="black-color">Web Development! All I need to know in one place</p>
+      </div>
+      <div class="box box-2">
+        <h3>London Business School</h3>
+        <div class="date flex">
+          <p class="text-green">2017 - 2019</p>
+        </div>
+        <p class="black-color">Master Degree</p>
+      </div>
+      <div class="box">
+        <h3>W3Schools.com</h3>
+        <div class="date flex">
+          <p class="text-green">2014 - 2017</p>
+        </div>
+        <p class="black-color">Fundametals of HTML</p>
+      </div>
+    </section>
+  </section>
+  <footer class="bg-green">
+    <div>copyright &copy; <span id="year-date"></span></div>
+  </footer>
+
+<script>
+  let yearBox = document.getElementById("year-date");
+  const date = new Date();
+  yearBox.textContent = date.getFullYear()
+</script>
+</body>
+</html>
